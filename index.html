@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>子慦的第一个网页20240828</title>
+  <style>
+    .导航栏 {
+      width: 1600px;
+      height: 88px;
+      background-color: #2FEBEA;
+      margin: auto;
+    }
+
+    .标志 {
+      float: left;
+      display: flex;
+      align-items: center;
+    }
+
+    .导航标签 {
+      float: right;
+      display: flex;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 88px;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      text-decoration: none;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 140px 20px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    li a:hover {
+      background-color: #FFFFFF50;
+    }
+
+    #关于我 {
+      height: 800px;
+      background-color: #2FEBEA;
+      text-align: center;
+    }
+
+    #职业 {
+      height: 800px;
+      background-color: #FFFFFF;
+      border-bottom: 2px solid #f5f5f5;
+      display: flex;
+      justify-content: center;
+    }
+
+    #方向 {
+      height: 800px;
+      background-color: #FFFFFF;
+      border-bottom: 2px solid #f5f5f5;
+      display: flex;
+      justify-content: center;
+    }
+
+    .卡片 {
+      height: 581px;
+      border-radius: 24px;
+      background-color: #F1F1F1;
+      float: left;
+    }
+
+
+    .按钮 {
+      width: 260px;
+      height: 61px;
+      border-radius: 32px;
+      background-color: #2FEBEA;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #目的 {
+      height: 800px;
+      background-color: #FFFFFF;
+      border-bottom: 2px solid #f5f5f5;
+      display: flex;
+      justify-content: center;
+    }
+
+    #计划 {
+      height: 800px;
+      background-color: #FFFFFF;
+      border-bottom: 2px solid #f5f5f5;
+      display: flex;
+      justify-content: center;
+    }
+
+    #工作经历 {
+      height: 800px;
+      background-color: #FFFFFF;
+      border-bottom: 2px solid #f5f5f5;
+      display: flex;
+      justify-content: center;
+    }
+
+    .卡片标题 {
+      border-radius: 32px 32px 0px 0px;
+      background-color: #2FEBEA;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #学习 {
+      height: 800px;
+      background-color: #FFFFFF;
+      border-bottom: 2px solid #f5f5f5;
+      display: flex;
+      justify-content: center;
+    }
+
+    #学历 {
+      height: 800px;
+      background-color: #FFFFFF;
+      display: flex;
+      justify-content: center;
+    }
+
+    #底部导航 {
+      height: 755px;
+      background-color: #2FEBEA;
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+
+<body>
+  <!--关于我-->
+  <div id="关于我">
+    <!--导航栏-->
+    <div class="导航栏">
+      <div class="标志">
+        <img src="resource/run.png" alt="跑步" width="32px" height="auto" style="float: left;">
+        <p class="字体28" style="margin-left: 6px;">打个招呼</p>
+      </div>
+      <div class="导航标签">
+        <ul>
+          <li>
+            <a href="#关于我">关于我</a>
+          </li>
+          <li>
+            <a href="#职业">职业</a>
+          </li>
+          <li>
+            <a href="#方向">方向</a>
+          </li>
+          <li>
+            <a href="#目的">目的</a>
+          </li>
+          <li>
+            <a href="#计划">计划</a>
+          </li>
+          <li>
+            <a href="#学习">学习</a>
+          </li>
+          <li>
+            <a href="#学历">学历</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--导航栏结束-->
+
+    <div style="margin-top: 200px;">
+      <img src="resource/control/image/zijiu.png" alt="子慦" width="149px" height="auto">
+      <div>
+        <p style="font-size: 64px; font-weight: bold; line-height: normal; margin-top: 32px; margin-bottom: 16px;">
+          👋 你好，我是子慦！</p>
+        <p style="font-size: 22px; line-height: normal;">来自重庆酉阳</p>
+      </div>
+    </div>
+
+  </div>
+  <!--关于我结束-->
+
+  <!--职业-->
+  <div id="职业">
+    <div class="群组">
+      <img src="resource/5big.png" alt="工作时长" width="406px" height="auto" style="float: left;">
+      <div style="margin-left: 80px;">
+        <img src="resource/control/icon/magic.png" alt="美化" width="106px" height="106px">
+        <div style="margin-left: 24px; margin-top: 20px;">
+          <p>我的职业是</p>
+          <h1 class="字体54" style="margin-top: 8px; margin-bottom: 22px;">UI设计师</h1>
+          <div style="width: 684px; height: 64px; background-color: #2FEBEA; display: flex; align-items: center;">
+            <p class="字体28" style="margin-left: 24px; ">从业五年，目前已开启全天候自学模式</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--职业结束-->
+
+  <!--方向-->
+  <div id="方向">
+    <div class="群组">
+      <!--左卡片-->
+      <div class="卡片"
+        style="width: 788px; background-image: url(resource/fullStack.png); background-size: cover; background-repeat: no-repeat;">
+        <div style="float: left; margin-left: 80px; margin-top: 80px;">
+          <img src="resource/control/icon/location.png" alt="方向" width="106px" height="auto">
+          <h1 class="字体54" style="margin-top: 0px;">学习方向</h1>
+        </div>
+        <div class="群组" style="float: right; height: 581px; margin-right: 61px; ">
+          <div>
+            <div class="群组" style="width: 261px;">
+              <img src="resource/control/image/w3c.png" alt="w3c" width="200px" height="auto">
+            </div>
+            <div class="按钮" style="margin-top: 64px;">
+              <p class="字体28">Web</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--中卡片-->
+      <div class="卡片1" style="width: 382px; margin-left: 24px; margin-right: 24px;">
+        <div>
+          <div class="群组">
+            <div>
+              <div class="群组" style="width: 261px;">
+                <img src="resource/control/image/wechat.png" alt="微信小程序" width="200px" height="auto">
+              </div>
+              <div class="按钮" style="margin-top: 64px;">
+                <p class="字体28">微信小程序</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--右卡片-->
+      <div class="卡片1" style="width: 382px;">
+        <div>
+          <div class="群组" style="width: 261px;">
+            <img src="resource/control/image/apple.png" alt="iOS" width="200px" height="auto">
+          </div>
+          <div class="按钮" style="margin-top: 64px;">
+            <p class="字体28">iOS</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--方向结束-->
+
+  <!--目的-->
+  <div id="目的">
+    <!--左卡片-->
+    <div class="群组">
+      <div class="卡片1" style="width: 382px; background-color: #2FEBEA; margin-right: 24px;">
+        <div style="height: 581px;">
+          <div style="height: 147px; margin-top: 80px;">
+            <p style="font-size: 34px; font-weight: bold; margin-bottom: 0px;">collectGem()</p>
+            <img src="resource/control/icon/Infinite.png" alt="无限" width="106px" height="106px">
+          </div>
+        </div>
+      </div>
+
+      <!--右卡片-->
+      <div class="卡片1" style="width: 1194px;">
+        <div>
+          <h1 class="字体54" style="margin-bottom: 64px;">目的</h1>
+          <!--文本组合-->
+          <div>
+            <div style="margin-bottom: 48px;">
+              <img src="resource/think.png" alt="思考" width="44px" height="auto" style="float: left;">
+              <span class="字体28" style="margin-left: 12px;">成为一名全栈工程师</span>
+            </div>
+            <div style="margin-bottom: 48px;">
+              <img src="resource/swim.png" alt="搏击" width="44px" height="auto" style="float: left;">
+              <span class="字体28" style="margin-left: 12px;">以独立开发者的斜杆青年标签成就事业并创造经济</span>
+            </div>
+            <div style="margin-bottom: 48px;">
+              <img src="resource/onFoot.png" alt="行者" width="44px" height="auto" style="float: left;">
+              <span class="字体28" style="margin-left: 12px;">过上经济独立能够自由选择的人生</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--目的结束-->
+
+  <!--计划-->
+  <div id="计划">
+    <div class="群组">
+
+      <!--左卡片-->
+      <div class="卡片1" style="width: 1194px; margin-right: 24px;">
+        <div style="width: 1194px;">
+          <div style="margin-top: 145px;margin-left: 203px;">
+
+            <!--上-->
+            <div style="display: flex; align-items: center;">
+              <img src="resource/control/icon/calendar.png" alt="日历" width="106px" height="auto">
+              <span class="字体54" style="margin-left: 12px;">计划</span>
+            </div>
+
+            <!--下-->
+            <div style="margin-top: 80px;">
+              <img src="resource/control/icon/q.png" alt="方案" width="106px" height="auto">
+              <p class="字体28">通过2年自学/报读脱产培训班</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--右卡片-->
+      <div class="卡片1" style="width: 382px; background-color: #2FEBEA;">
+        <div style="margin-top: 251px;">
+          <img src="resource/control/icon/s.png" alt="回答" width="106px" height="auto">
+          <p class="字体28" style="width: 289px;">实现能够独立开发自己感兴趣的产品并迎合市场以盈利</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--计划结束-->
+
+  <!--工作经历-->
+  <div id="工作经历">
+
+    <!--左卡片-->
+    <div style="height: 581px; margin-top: 186px">
+
+      <div style="display: flex; align-items: center;">
+        <!--图片span本来是居中对齐的，但是加了其它元素div之类的就会把位置顶掉，所以要加一个弹性盒子重新居中一下-->
+        <img src="resource/control/icon/work.png" alt="工作" width="106px" height="auto">
+        <span class="字体54" style="margin-left: 12px;">工作经历</span>
+      </div>
+
+      <!--卡片组合-->
+      <div style="margin-top: 32px;">
+        <!--卡片标题-->
+        <div class="卡片标题" style="width: 517px; height: 89px; background-color: #2FEBEA;">
+          <p class="字体34">就职公司</p>
+        </div>
+        <!--卡片文字-->
+        <div class="卡片1" style="width: 517px; height: 278px; margin-right: 24px; border-radius: 0 0 32px 32px ;">
+          <p class="字体28" style="width: 391px; text-align: justify;">从 2019 年 3 月开始，至 2024 年 5 月，我在广东**纳科技有限公司工作</p>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!--中卡片-->
+    <div class="群组">
+      <div>
+        <!--卡片标题-->
+        <div class="卡片标题" style="width: 517px; height: 89px; background-color: #2FEBEA;">
+          <p class="字体34">工作内容</p>
+        </div>
+
+        <!--卡片文字-->
+        <div class="卡片1" style="width: 517px; height: 492px; margin-right: 24px; border-radius: 0 0 24px 24px ;">
+          <p class="字体28" style="width: 391px; text-align: justify;">
+            期间，我主要负责公司共享童车、轮椅、陪护床等共享产品的小程序、网页管理平台、安卓管理平台、外包项目等的界面设计
+            以及公司宣传方面的平面设计工作</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!--右卡片-->
+    <div style="margin-top: 202px;">
+
+      <!--卡片标题-->
+      <div class="卡片标题" style="width: 517px; height: 89px; background-color: #2FEBEA;">
+        <p class="字体34">工作时长</p>
+      </div>
+
+      <!--卡片文字-->
+      <div>
+        <div class="卡片1"
+          style="width: 517px; height: 400px; border-radius: 0 0 24px 24px; background-image: url(resource/5small.png); background-size: cover; background-repeat:no-repeat;">
+          <div style="height: 400px;">
+            <p class="字体28" style="width: 391px; margin-top: 96px;">工作时长约 5 年 2 个月</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--工作经历-->
+
+  <!--学习经历-->
+  <div id="学习">
+    <div class="群组">
+
+      <!--左侧卡片-->
+      <div class="卡片1"
+        style="width: 585px; margin-right: 24px; background-image: url(resource/UI.png); background-size: cover; background-repeat:no-repeat;">
+
+        <!--文本-->
+        <div style="height: 581px;">
+          <div class="群组">
+            <div
+              style="width: 585px; height: 128px; background-color: #2FEBEA; border-radius: 0 0 24px 24px; margin-top: 453px;">
+              <p class="字体28" style="width: 382px; margin-left: 102px;">2018年为期3个月设计拔高脱产学习UI设计</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!--右侧卡片-->
+      <div class="卡片1"
+        style="width: 991px; background-image: url(resource/GD.png); background-size: cover; background-repeat:no-repeat;">
+
+
+        <!--文本-->
+        <div style="height: 581px;">
+          <div style="width: 219px; height: 181px; margin-top: 48px; margin-left: 724px;">
+            <img src="resource/control/icon/backpack.png" alt="背包" width="106px" height="auto">
+            <h1 class="字体54" style="margin-top: 0;">培训经历</h1>
+          </div>
+
+          <div class="群组">
+            <div
+              style="width: 991px; height: 128px; background-color: #2FEBEA; border-radius: 0 0 24px 24px; margin-top: 224px; ">
+              <p class="字体28" style="width: 382px; margin-left: 102px;">2014年为期12个月半工半读培训入门平面设计</p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+  <!--学习结束-->
+
+  <!--学历-->
+  <div id="学历">
+    <div
+      style="width: 1600px; background-image: url(resource/edu.png); background-size: contain; background-repeat: no-repeat; background-position: left;">
+
+
+      <div style="width: 750px; height: 181px; margin-left: 850px; margin-top: 374px;">
+
+        <div style="float: left;">
+          <img src="resource/control/icon/Education.png" alt="教育" width="106px" height="auto"
+            style="margin-left: 54px;">
+          <h1 class="字体54" style="text-align: center; margin-top: 0;">大专学历</h1>
+        </div>
+
+        <p class="字体28" style="float: left; width: 483px; margin-left: 48px; margin-top: 
+          97px;">2018 年 3 月到 2021
+          年 7 月
+          在广东开放大学学习并拿到大专学历</p>
+      </div>
+
+    </div>
+  </div>
+  <!--学历结束-->
+
+
+  <!--底部导航-->
+  <div id="底部导航">
+
+    <!--群组-->
+    <div style="width: 1194px;">
+
+      <!--标志组合-->
+      <div style="height: 51px; border-bottom: 2px solid #00000010; margin-top: 80px;">
+        <div>
+          <a href="#关于我"><img src="resource/run.png" alt="打个招呼" width="32px" height="auto" style="float: left;"></a>
+
+          <div style="float: right;">
+            <a href="https://weibo.com/u/3772405110"> <img src="resource/control/icon/36/weibo.png" alt="微博" width="36px" height="auto"></a>
+           <a href="https://www.douyin.com/user/MS4wLjABAAAAqSnMTe4XW1Buaha_BhiU_xpfA5SrqMbKsfnTBgDi6mM"><span style="margin-left: 8px;"><img src="resource/control/icon/36/douyin.png" alt="抖音" width="36px"
+            height="auto"></span></a>
+            
+          </div>
+        </div>
+      </div>
+
+      <!--文本组合导航-->
+      <div style="width: 990px; height: 244px; margin-top: 24px;">
+
+        <div class="单列文本" style="float: left; width: 60px; margin-right: 95px;">
+          <p class="字体15">平面设计</p>
+          <p class="字体12" style="margin-top: 12px;">海报设计</p>
+          <p class="字体12">彩页设计</p>
+          <p class="字体12">VI设计</p>
+          <p class="字体12">logo设计</p>
+          <p class="字体12">包装设计</p>
+          <p class="字体12">网页设计</p>
+          <p class="字体12">装饰设计</p>
+        </div>
+
+        <div class="单列文本" style="float: left; width: 60px; margin-right: 95px;">
+          <p class="字体15">UI设计</p>
+          <p class="字体12" style="margin-top: 12px;">用户研究</p>
+          <p class="字体12">交互设计</p>
+          <p class="字体12">界面设计</p>
+          <p class="字体12">用户体验</p>
+
+        </div>
+
+        <div class="单列文本" style="float: left; width: 60px; margin-right: 95px;">
+          <p class="字体15">去过哪里</p>
+          <p class="字体12" style="margin-top: 12px;">重庆山地</p>
+          <p class="字体12">广东工地</p>
+          <p class="字体12">山东泰山</p>
+          <p class="字体12">海南环游</p>
+        </div>
+
+        <div class="单列文本" style="float: left; width: 60px; margin-right: 95px;">
+          <p class="字体15">个人特征</p>
+          <p class="字体12" style="margin-top: 12px;">傲娇单纯</p>
+          <p class="字体12">狂妄无知</p>
+        </div>
+
+        <div class="单列文本" style="float: left; width: 60px; margin-right: 95px;">
+          <p class="字体15">想去哪里</p>
+          <p class="字体12" style="margin-top: 12px;">海岸全线</p>
+          <p class="字体12">东南西北</p>
+          <p class="字体12">自由自在</p>
+        </div>
+
+        <div class="单列文本" style="float: left; width: 60px; margin-right: 95px;">
+          <p class="字体15">特殊喜好</p>
+          <p class="字体12" style="margin-top: 12px;">人间清醒</p>
+          <p class="字体12">梦里河山</p>
+          <p class="字体12">大放厥词</p>
+          <p class="字体12">独来独往</p>
+          <p class="字体12">驾驶</p>
+          <p class="字体12">登山</p>
+          <p class="字体12">游泳</p>
+        </div>
+
+        <div class="单列文本" style="float: left; width: 60px;">
+          <p class="字体15">人生畅想</p>
+          <p class="字体12" style="margin-top: 12px;">未来</p>
+          <p class="字体12">现在</p>
+          <p class="字体12">过去</p>
+        </div>
+
+      </div>
+
+      <!--组-->
+      <div style="margin-top: 120px;">
+        <!--二维码-->
+        <div style="width:1194px; height: 100px;">
+          <div style="float: right;">
+            <img src=" resource/control/image/QRcode.png" alt="二维码" width="100px" height="auto">
+          </div>
+        </div>
+
+        <!--版权-->
+        <div style="margin-top: 8px;">
+          <p class="字体11">联系邮箱：hzw1_23@qq.com</p>
+          <div style="height: 2px; background-color: #00000010; margin-top: 8px;"></div>
+        </div>
+
+        <div>
+          <div style="float: left; display: flex; align-items: center; margin-top: 8px;">
+            <img src="resource/control/icon/16/copyright.png" alt="版权" width="16px" height="auto">
+            <span class="字体11">zijiu4.com 粤ICP备66666666号 - 1All rights reserved.</span>
+          </div>
+
+          <div style="float: right; display: flex; align-items: center;  margin-top: 8px;">
+            <img src="resource/control/icon/16/network.png" alt="全球" width="16px" height="auto">
+            <span class="字体11">International</span>
+          </div>
+        </div>
+
+      </div>
+      <!--文本组合导航结束-->
+
+    </div>
+    <!--群组结束-->
+
+  </div>
+  <!--底部导航结束-->
+</body>
+
+</html>
